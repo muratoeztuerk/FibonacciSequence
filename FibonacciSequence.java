@@ -5,7 +5,7 @@ integer sequence, called the Fibonacci sequence, and characterized by the fact
 that every number after the first two is the sum of the two preceding ones:
 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21 , 34 , 55 , 89 , 144.... [WIKIPEDIA]
 
-*/
+ */
 package fibonaccisequence;
 
 /**
@@ -15,18 +15,19 @@ package fibonaccisequence;
 public class FibonacciSequence {
 
     public static void FibonacciNumbers(int first, int second, int last) {
-        int sum=first+second;
-        
-        if (sum<=last){
-            System.out.println(sum);
-            FibonacciNumbers(sum, first, last);
+
+        second = first + second;
+
+        if (second <= last) {
+            System.out.println(second);
+            FibonacciNumbers(second, first, last);
         }
     }
-    
+
     public static void main(String[] args) {
-      
-        FibonacciNumbers(0, 1, 150);
-        
+
+        FibonacciNumbers(0, 1, 144);
+
     }
-    
+
 }
