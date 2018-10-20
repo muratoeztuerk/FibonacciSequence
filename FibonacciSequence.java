@@ -15,7 +15,7 @@ public class FibonacciSequence {
 	public static void main(String[] args) {
 
 		for (int i = 0; i < 13; i++) {
-			System.out.println(FibonacciNumbers(i));
+			System.out.println(fibonacci(i));
 		}
 
 	}
@@ -26,9 +26,6 @@ public class FibonacciSequence {
 			return n;
 		else
 			return fibonacci(n - 1) + fibonacci(n - 2); // F(n) = F(n-1) + F(n-2)
-
 	}
-
+	
 }
-
-
