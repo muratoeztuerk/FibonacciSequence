@@ -20,12 +20,12 @@ public class FibonacciSequence {
 
 	}
 
-	static int FibonacciNumbers(int n) {
+	static int fibonacci(int n) {
 
 		if (n <= 1)
 			return n;
 		else
-			return FibonacciNumbers(n - 1) + FibonacciNumbers(n - 2); // F(n) = F(n-1) + F(n-2)
+			return fibonacci(n - 1) + fibonacci(n - 2); // F(n) = F(n-1) + F(n-2)
 
 	}
 
