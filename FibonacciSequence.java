@@ -5,8 +5,7 @@
  * that every number after the first two is the sum of the two preceding ones:
  * 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21 , 34 , 55 , 89 , 144.... [WIKIPEDIA]
  * 
- * @author Murat Öztürk
- * 
+ * @author Murat Öztürk 
  * 
  */
 
@@ -31,3 +30,5 @@ public class FibonacciSequence {
 	}
 
 }
+
+
